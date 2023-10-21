@@ -5,7 +5,7 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('James-C-dockerhub')
+    DOCKERHUB_CREDENTIALS = credentials('James-C-IBT-ADV-Dockerhub')
     APP_NAME = "james9993/amazon"
     }
     stages { 
